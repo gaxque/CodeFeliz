@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(bg.jpeg.png);
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.quote-box {
+    background-color: rgba(84, 105, 88, 0.5);; 
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    box-shadow: -5px 27px 66px -21px rgba(0,0,0,0.33);
+    -webkit-box-shadow: -5px 27px 66px -21px rgba(0,0,0,0.33);
+    margin: 0 auto;
+}
+
+.quote-text {
+    color: blanchedalmond;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+button {
+    padding: 9px 13px;
+    background-color: #007bff; 
+    border: none;
+    color: #ffffff;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px 0;
+}
+
+
+.link-footer {
+    color: white !important;
+    text-decoration: none;
+}
+
+
+
+/* dev mobile */
+
+@media (max-width: 500px) {}
+    * {
+        margin: 0;
+        padding: 0;
+        font-family "Open Sans", sans-serif;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url(bg.png);
+        color: #ffffff; /* Cor do texto branca */
+        font-family: sans-serif;
+    }
+    
+
+    .quote-box {
+        background-color: rgba(84, 105, 88, 0.5);; 
+        padding: 20px;
+        border-radius: 33px;
+        max-width: 300px;
+        box-shadow: -5px 27px 66px -21px rgba(0,0,0,0.33);
+        -webkit-box-shadow: -5px 27px 66px -21px rgba(0,0,0,0.33);
+        margin: 0 auto; /* Centraliza horizontalmente */
+    }
+
+    button {
+        margin: 3%;
+        padding: 9px 13px;
+        background-color: #007bff; /* Azul para botão */
+        border: none;
+        color: #ffffff;
+        border-radius: 30px;
+        transition: background-color 0.3s ease;
+    }
+
+    footer {
+        font-size: 10px;
+        text-align: center; 
+        margin-top: 20px; 
+    }
+
+    .link-footer {
+        color: white !important;
+        text-decoration: none;
+    }
+
+    
+    
+  
+    
