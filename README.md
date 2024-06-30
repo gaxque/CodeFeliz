@@ -1,3 +1,6 @@
+
+Acesse por aqui > https://gaxque.github.io/CodeFeliz/
+
 Gerador de Afirmações Positivas
 Este é um projeto simples de um gerador de afirmações positivas desenvolvido com HTML, CSS e JavaScript. O objetivo deste projeto é promover o bem-estar emocional oferecendo mensagens inspiradoras que podem ajudar na construção de uma mentalidade positiva e resiliente.
 
